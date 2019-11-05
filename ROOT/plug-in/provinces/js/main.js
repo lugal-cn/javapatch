@@ -1,0 +1,1 @@
+$(function(){var f=$("#city-picker1");f.citypicker();var d=$("#city-picker2");d.citypicker({province:"江苏省",city:"常州市",district:"溧阳市"});var e=$("#city-picker3");$("#reset").click(function(){e.citypicker("reset")});$("#destroy").click(function(){e.citypicker("destroy")})});

@@ -1,0 +1,221 @@
+.class1 {
+	background: #86c7ff;
+	/* width: 100%; */
+	font-size: 18px;
+	color: #2483de;
+	border: 4px 0px 0px 0px;
+	border-radius: 5px;
+	margin: 0px 0px 7px 0px;
+	box-shadow: 3px 3px 8px grey;
+	border-style: solid solid solid none;
+	padding-top: 5px;
+}
+
+.mybtn {
+	line-height: 2;
+	border-radius: 8px;
+	font-family: "微软雅黑", "新宋体", "open sans", "Helvetica Neue", Helvetica,
+		Arial, "sans-serif";
+}
+
+.myheader {
+	width: 98%;
+	text-align: center;
+	font-weight: bold;
+	font-family: "微软雅黑", "新宋体", "open sans", "Helvetica Neue", Helvetica,
+		Arial, "sans-serif";
+	color: black;
+}
+
+.photographdiv {
+	float: right;
+	/* background:black; */
+	padding-right: 5px;
+}
+
+.photograph {
+	width: 30px;
+	height: 30px;
+	background: url('/images/pz.png') no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.photoalbum {
+	width: 30px;
+	height: 30px;
+	background: url('/images/xc.png') no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.photoalbumzp {
+	width: 30px;
+	height: 30px;
+	background: url('/images/zp.png') no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+
+a.upimg {
+	display: block;
+	height: 32px;
+	width: 32px;
+	background: url('/images/shang1.png') no-repeat;
+	text-indent: -9999px; /* 隐藏文字 */
+}
+
+a.upimg:active {
+	display: block;
+	height: 32px;
+	width: 32px;
+	background: url('/images/shang2.png') no-repeat;
+}
+
+a.resimg {
+	display: block;
+	height: 32px;
+	width: 32px;
+	background: url('/images/cz1.png') no-repeat;
+	text-indent: -9999px; /* 隐藏文字 */
+}
+
+a.resimg:active {
+	display: block;
+	height: 32px;
+	width: 32px;
+	background: url('/images/cz2.png') no-repeat;
+}
+
+a.downimg {
+	display: block;
+	height: 32px;
+	width: 32px;
+	background: url('/images/xia1.png') no-repeat;
+	text-indent: -9999px; /* 隐藏文字 */
+}
+
+a.downimg:active {
+	display: block;
+	height: 32px;
+	width: 32px;
+	background: url('/images/xia2.png') no-repeat;
+}
+
+.btnstop {
+	display: none;
+	width: 40px;
+	height: 40px;
+	background: url(/images/stop02.png) no-repeat;
+	background-size: cover;
+	margin-top: 60px;
+	margin-left: 6px;
+	cursor: pointer;
+}
+
+.btnstop:active {
+	display: none;
+	width: 40px;
+	height: 40px;
+	background: url('/images/stop01.png') no-repeat;
+	background-size: cover;
+	margin-top: 60px;
+	margin-left: 6px;
+	cursor: pointer;
+}
+
+.btnup {
+	display: block;
+	width: 85px;
+	height: 36px;
+	background: url(/images/up02.png) no-repeat;
+	background-size: cover;
+	margin-top: 80px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.btnup:active {
+	display: block;
+	width: 85px;
+	height: 36px;
+	background: url(/images/up01.png) no-repeat;
+	background-size: cover;
+	margin-top: 80px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.btnleft {
+	display: block;
+	width: 35px;
+	height: 82px;
+	background: url('/images/left02.png') no-repeat;
+	background-size: cover;
+	margin-top: -17px;
+	margin-left: -85px;
+	cursor: pointer;
+}
+
+.btnleft:active {
+	display: block;
+	width: 35px;
+	height: 82px;
+	background: url('/images/left01.png') no-repeat;
+	background-size: cover;
+	margin-top: -17px;
+	margin-left: -85px;
+	cursor: pointer;
+}
+
+.btnright {
+	display: block;
+	width: 35px;
+	height: 82px;
+	background: url('/images/right02.png') no-repeat;
+	background-size: cover;
+	margin-top: -80px;
+	margin-left: 92px;
+	cursor: pointer;
+}
+
+.btnright:active {
+	display: block;
+	width: 35px;
+	height: 82px;
+	background: url('/images/right01.png') no-repeat;
+	background-size: cover;
+	margin-top: -80px;
+	margin-left: 92px;
+	cursor: pointer;;
+}
+
+.btndown {
+	display: block;
+	width: 85px;
+	height: 36px;
+	background: url('/images/down02.png') no-repeat;
+	background-size: cover;
+	margin-top: -18px;
+	margin-left: 3px;
+	cursor: pointer;
+}
+
+.btndown:active {
+	display: block;
+	width: 85px;
+	height: 36px;
+	background: url('/images/down01.png') no-repeat;
+	background-size: cover;
+	margin-top: -18px;
+	margin-left: 3px;
+	cursor: pointer;
+}
+
+td {
+	background-color: white;
+	padding: 2px 0px 0px 2px;
+	border-right: 0px;
+	border-bottom: 0px;
+	vertical-align: top;
+}
